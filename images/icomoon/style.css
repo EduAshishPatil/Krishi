@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1510bl');
+  src:  url('fonts/icomoon.eot?1510bl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1510bl') format('truetype'),
+    url('fonts/icomoon.woff?1510bl') format('woff'),
+    url('fonts/icomoon.svg?1510bl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sun:before {
+  content: "\e900";
+}
+.icon-star:before {
+  content: "\e901";
+}
+.icon-checkmark:before {
+  content: "\e902";
+}
+.icon-cancel:before {
+  content: "\e903";
+}
+.icon-gift:before {
+  content: "\e904";
+}
+.icon-coffee:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e906";
+}
+.icon-email:before {
+  content: "\e907";
+}
+.icon-syringe:before {
+  content: "\e908";
+}
+.icon-pill:before {
+  content: "\e909";
+}
+.icon-notebook:before {
+  content: "\e90a";
+}
+.icon-document-star:before {
+  content: "\e90b";
+}

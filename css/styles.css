@@ -1,0 +1,26 @@
+.navbar {
+  background: #AAF2D1;
+}
+
+.container-wrapper {
+  height: 33vh;
+  text-align: center;
+}
+
+.container-wrapper .container-block {
+  line-height: 33vh;
+}
+
+.container-wrapper:not(.welcome-section) {
+  border-top: 1px solid;
+  height: 65vh;
+}
+
+.container-wrapper:not(.welcome-section) .container-block {
+  line-height: 65vh;
+}
+
+.container-wrapper.our-products-block .container-block {
+  line-height: 60vh;
+}
+/*# sourceMappingURL=styles.css.map */
