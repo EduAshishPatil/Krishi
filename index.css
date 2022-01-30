@@ -15,7 +15,7 @@ a.navbar-brand {
 footer {
     /* margin: 15% auto 0 auto; */
     padding: 2% 0;
-    background-color: black;
+    background-color: #AAF2D1;
     background-position: center;
     background-position-x: -600 !important;
     color: white;
@@ -31,6 +31,26 @@ h4 {
 
 footer div.col-4 ul {
     padding: 0 !important;
+}
+
+footer li,
+footer ul {
+    text-decoration: none !important;
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+footer li {
+    width: 30%;
+    margin-top: 20px;
+}
+
+footer li .fab {
+    font-size: 30px !important;
+}
+
+footer ul {
+    display: flex;
 }
 
 
@@ -67,3 +87,22 @@ footer div.col-4 ul {
 
 
 /* =========================================================================================================================== */
+
+.products-popup .modal-dialog .modal-body .image-block img {
+    width: inherit;
+    border-radius: 5px;
+}
+
+.products-popup .modal-dialog .modal-body .content-block {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.products-popup .modal-dialog .products-wrapper-outer .row {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 30px;
+}
+
+.products-popup .modal-dialog .modal-header {
+    border-bottom: none;
+}
