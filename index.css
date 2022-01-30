@@ -106,3 +106,12 @@ footer ul {
 .products-popup .modal-dialog .modal-header {
     border-bottom: none;
 }
+
+footer .container .row .col-6 p {
+    margin: 0;
+}
+
+footer .container .row .col-6 h6 {
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
