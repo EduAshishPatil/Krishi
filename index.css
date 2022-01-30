@@ -120,3 +120,21 @@ button:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background: #9d9c9c;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+*::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
