@@ -115,3 +115,8 @@ footer .container .row .col-6 h6 {
     font-size: 18px;
     margin: 15px 0 5px;
 }
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
